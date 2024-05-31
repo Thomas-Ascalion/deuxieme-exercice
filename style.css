@@ -246,7 +246,7 @@ header {
 }
 
 .services-container p {
-    padding-top: 20px;
+    padding: 20px 20px;
 }
 
 .services-cont {
@@ -415,9 +415,13 @@ header {
 
 /* get in touch */
 
+.getintouch{
+    text-align: center;
+}
+
 .contact {
     padding-top: 2rem;
-    text-align: center;
+    text-align: start;
     width: 95%;
     margin: 0 auto;
     padding-bottom: 4rem;
@@ -430,6 +434,7 @@ header {
 .contact-container {
     background-color: var(--grey);
     padding: 20px 0;
+    text-align: start;
 }
 
 .form-group {
